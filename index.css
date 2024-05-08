@@ -49,6 +49,7 @@ body{
     position: absolute;
     right: 60px;
     transition:none;
+    cursor: pointer;
  }
  
  .no-btn:hover{
