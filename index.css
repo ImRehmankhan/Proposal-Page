@@ -48,6 +48,12 @@ body{
  .no-btn{
     position: absolute;
     right: 60px;
+    transition:none;
+ }
+ 
+ .no-btn:hover{
+    box-shadow: none;
+
  }
  
  .yes-btn{

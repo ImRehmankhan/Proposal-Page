@@ -7,8 +7,8 @@ const wrapperreact=container.getBoundingClientRect();
 const nobtnrect=nobtn.getBoundingClientRect();
 yesbtn.addEventListener('click',()=>{heading.innerHTML='I Love You Too! jAAnu'})
 nobtn.addEventListener('mouseover',()=>{
-    const i=Math.floor(Math.random()*(wrapperreact.width-nobtnrect.width))
-    const j=Math.floor(Math.random()*(wrapperreact.height-nobtnrect.height))
+    const i=Math.floor(Math.random()*(wrapperreact.width-nobtnrect.width))+1
+    const j=Math.floor(Math.random()*(wrapperreact.height-nobtnrect.height))+1
     nobtn.style.left=i +'px';
     nobtn.style.top=j+'px';
     
