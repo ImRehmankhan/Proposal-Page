@@ -17,7 +17,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 20px 0px;
-    width: 100%;
+    width: 70%;
     min-height: 30vh;
     gap: 30px;
     margin: 20px 20px;
@@ -25,42 +25,36 @@ body{
 }
 .buttons{
     display: flex;
-    gap: 20px;
-    background-color: aquamarine;
-  
-}
-.btn{
-  width: 110px;
-  height: 40px;
-  background-color: transparent;
-  border: 3px solid #ff11bf;
-  border-radius: 50px;
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
-  color: #ff27cd;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
    
-}
-.btn:hover{
-    box-shadow: 0 0 10px 0 #ff27cd inset, 0 0 20px 2px #ff27cd;
-    border: 3px solid #ff27cd;
-    
- }
- .no-btn{
+    background-color:yellow;
+   
+} 
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: 3px solid #ff11bf;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #ff27cd;
+     
+  }
+  .btn:hover{
+      box-shadow: 0 0 10px 0 #ff27cd inset, 0 0 20px 2px #ff27cd;
+      border: 3px solid #ff27cd;
+      
+   }
+   .no-btn{
     position: absolute;
-    right: 60px;
-    transition:none;
+    top:385px;
+    left: 400px;
     cursor: pointer;
  }
- 
- .no-btn:hover{
-    box-shadow: none;
 
- }
- 
- .yes-btn{
-   margin-left: -130px;
- }
- 
  @media (min-width: 576px) { 
     .no-btn{
     right: 60px;
